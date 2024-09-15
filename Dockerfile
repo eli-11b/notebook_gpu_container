@@ -16,4 +16,4 @@ RUN pip3 install -U pip && \
         pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
 
 EXPOSE 8888
-ENTRYPOINT ["jupyter notebook", "--ip=0.0.0.0", "--port=8888", "--no-browser", "--NotebookApp.token=''", "--NotebookApp.password=''"]
+ENTRYPOINT ["jupyter", "lab", "--ip=0.0.0.0", "--port=8888", "--no-browser", "--NotebookApp.token=''", "--NotebookApp.password=''"]
