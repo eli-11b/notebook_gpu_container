@@ -1,4 +1,4 @@
-# Run jupyter notebook with GPU support in Docker
+# Run jupyter notebook with pytorch and GPU support in Docker
 <img src="https://github.com/user-attachments/assets/203e2e67-9dae-4e4d-8648-d4f60f90eefb" height="250">
 
 1. Build Docker image using Dockerfile
